@@ -46,7 +46,9 @@ The standard COMA implementation serves as the baseline reference.
 🧮 Hyperparameters
 The hyperparameters used for training are consistent across algorithms to isolate the impact of the factorization method.
 
-Learning rate 
+Actor Learning rate (lr_a)
+
+Critic Learning rate (lr_c)
 
 Discount factor (gamma) 
 
@@ -57,3 +59,5 @@ Exploration: epsilon-greedy with decay
 Replay buffer size
 
 Target network update rate
+
+total_timesteps
