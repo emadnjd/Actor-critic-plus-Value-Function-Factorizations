@@ -65,12 +65,19 @@ total_timesteps
 🏗️ Repository Structure
 
 coma_matrixgame.py  # Standard COMA baseline in the matrix game
+
 coma_matrixgame_nonmonotonic.py  # Non-monotonic plus coma hybrid in the matrix game
+
 coma_matrixgame_qmix.py  # qmix plus coma hybrid in the matrix game
+
 coma_matrixgame_vdn.py  # vdn plus coma hybrid in the matrix game
+
 coma_predatorprey.py  # Standard COMA baseline in the predator prey game
+
 coma_predatorprey_nonmonotonic.py  # Non-monotonic plus coma hybrid in the predator prey game
+
 coma_predatorprey_qmix.py  # qmix plus coma hybrid in the predator prey game
+
 coma_predatorprey_vdn.py  # vdn plus coma hybrid in the predator prey game
 
 
