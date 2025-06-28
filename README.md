@@ -6,18 +6,18 @@ This repository contains the implementation and evaluation of a novel exploratio
 The project investigates how integrating VDN, QMIX, and a non-monotonic factorization method into the COMA framework influences performance, coordination, and learning efficiency in cooperative multi-agent environments.
 
 🎯 Objectives
-- Integrate VDN, QMIX, and a non-monotonic method with COMA to enhance credit assignment and coordination.
+Integrate VDN, QMIX, and a non-monotonic method with COMA to enhance credit assignment and coordination.
 
-- Evaluate and compare these hybrid approaches against standard COMA in two distinct environments.
+Evaluate and compare these hybrid approaches against standard COMA in two distinct environments.
 
-- Analyze the impact of factorization on policy learning and value estimation within actor-critic MARL settings.
+Analyze the impact of factorization on policy learning and value estimation within actor-critic MARL settings.
 
 🧪 Environments
 The code supports two distinct evaluation environments:
 
-- Matrix Game (a discrete, static coordination game)
+Matrix Game (a discrete, static coordination game)
 
-- Predator-Prey Game (a dynamic grid-based cooperative environment)
+Predator-Prey Game (a dynamic grid-based cooperative environment)
 
 Each algorithm (COMA and its hybrid variants) was tested in both environments under consistent training conditions for fair and reproducible comparisons.
 
